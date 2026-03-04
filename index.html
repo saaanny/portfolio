@@ -1,1 +1,651 @@
-test
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sonny Boy — IT Specialist & Developer</title>
+
+  <!-- SEO Meta Tags -->
+  <meta name="description" content="Sonny Boy — IT Specialist, Computer Technician, and Tech Enthusiast. Explore my projects, skills, and experience." />
+  <meta name="keywords" content="IT Specialist, Computer Technician, Portfolio, Web Development, Flutter, Firebase" />
+  <meta name="author" content="Sonny Boy" />
+  <meta name="theme-color" content="#060a12" />
+
+  <!-- Open Graph -->
+  <meta property="og:title" content="Sonny Boy — IT Portfolio" />
+  <meta property="og:description" content="IT Specialist | Computer Technician | Tech Enthusiast" />
+  <meta property="og:type" content="website" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500;700&family=DM+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ============================
+       NAVBAR
+  ============================ -->
+  <nav id="navbar" role="navigation" aria-label="Main navigation">
+    <div class="nav-logo">Eduave<span>.</span>Sanny</div>
+
+    <!-- Desktop links -->
+    <ul class="nav-links" role="list">
+      <li><a href="#about">About</a></li>
+      <li><a href="#stack">Stack</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
+    </ul>
+
+    <!-- Mobile hamburger -->
+    <button class="hamburger" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="mobile-nav">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile Navigation Overlay -->
+  <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile navigation">
+    <a href="#about">About</a>
+    <a href="#stack">Stack</a>
+    <a href="#projects">Projects</a>
+    <a href="#experience">Experience</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <!-- ============================
+       HERO
+  ============================ -->
+  <section id="hero" aria-label="Introduction">
+    <div class="hero-orb hero-orb-1" aria-hidden="true"></div>
+    <div class="hero-orb hero-orb-2" aria-hidden="true"></div>
+
+    <div class="container">
+      <div class="hero-content">
+
+        <!-- Text -->
+        <div class="hero-text">
+          <div class="hero-badge fade-in">
+            <span class="dot" aria-hidden="true"></span>
+            Available for opportunities
+          </div>
+
+          <h1 class="hero-name fade-in fade-in-delay-1">
+            Sonny Boy<br><span class="last">Eduave</span>
+          </h1>
+
+          <p class="hero-tagline fade-in fade-in-delay-2">
+            IT Specialist<span class="sep">·</span>Computer Technician<span class="sep">·</span>Tech Enthusiast
+          </p>
+
+          <p class="hero-intro fade-in fade-in-delay-3">
+            I’m a 25-year-old IT Specialist and Computer Technician with hands-on experience
+            in <strong>hardware troubleshooting, network configuration, and technical support</strong>.
+            I focus on maintaining stable infrastructures 
+            and providing efficient, user-centered IT solutions.
+          </p>
+
+          <div class="hero-buttons fade-in fade-in-delay-4">
+            <a href="#projects" class="btn btn-primary">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <rect x="2" y="3" width="20" height="14" rx="2"/>
+                <line x1="8" y1="21" x2="16" y2="21"/>
+                <line x1="12" y1="17" x2="12" y2="21"/>
+              </svg>
+              View Projects
+            </a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+
+          <div class="hero-stats fade-in fade-in-delay-5">
+            <div class="hero-stat-item">
+              <div class="stat-num">3+</div>
+              <div class="stat-label">Years Experience</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-num">5+</div>
+              <div class="stat-label">Projects Built</div>
+            </div>
+            <div class="hero-stat-item">
+              <div class="stat-num">10+</div>
+              <div class="stat-label">Technologies</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Avatar (shown on tablet+) -->
+        <div class="hero-avatar-wrap fade-in fade-in-delay-3" aria-hidden="true">
+          <div class="hero-avatar">
+            <img src="images/sanny.jpg" alt="Sonny Boy Eduave profile photo" />
+            <span class="avatar-label">Profile Photo</span>
+          </div>
+          <div class="hero-avatar-frame"></div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="hero-scroll" aria-hidden="true">
+      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+        <path d="M12 5v14M5 12l7 7 7-7"/>
+      </svg>
+      Scroll
+    </div>
+  </section>
+
+  <!-- ============================
+       ABOUT
+  ============================ -->
+  <section id="about" class="section" aria-labelledby="about-heading">
+    <div class="container">
+      <div class="about-grid">
+
+        <!-- Left: Text -->
+        <div class="about-text">
+          <p class="section-label">About Me</p>
+          <h2 class="section-title fade-in" id="about-heading">
+            Building the future,<br><span class="highlight">one line at a time</span>
+          </h2>
+          <p class="fade-in fade-in-delay-1">
+            I'm an IT professional with a strong foundation in <strong>Information Technology</strong>,
+            currently focused on frontend development and mobile applications. I hold a degree in IT
+            and have hands-on experience across the full development lifecycle.
+          </p>
+          <p class="fade-in fade-in-delay-2">
+            My background spans web development, mobile app development with <strong>Flutter & Firebase</strong>,
+            system administration, and UI/UX design. I thrive in collaborative environments where I can
+            solve complex problems and learn continuously.
+          </p>
+          <div class="about-goals fade-in fade-in-delay-3">
+            <p>"My goal is to grow into a senior full-stack developer role, contribute to open-source
+            projects, and eventually build impactful tech products that solve real-world problems."</p>
+          </div>
+          <div class="fade-in fade-in-delay-4">
+            <a href="#" class="btn btn-outline" download aria-label="Download CV as PDF">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/>
+                <polyline points="7 10 12 15 17 10"/>
+                <line x1="12" y1="15" x2="12" y2="3"/>
+              </svg>
+              Download CV
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Skills -->
+        <div class="skills-panel fade-in fade-in-delay-2">
+          <h3>Skills Overview</h3>
+
+          <div class="skill-group">
+            <div class="skill-group-label">Frontend</div>
+            <div class="skill-tags">
+              <span class="skill-tag">HTML5</span>
+              <span class="skill-tag">CSS3</span>
+              <span class="skill-tag">JavaScript</span>
+              <span class="skill-tag">TypeScript</span>
+              <span class="skill-tag">React</span>
+              <span class="skill-tag">Responsive Design</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-label">Mobile & Backend</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Flutter</span>
+              <span class="skill-tag">Firebase</span>
+              <span class="skill-tag">Node.js</span>
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">REST APIs</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-label">Tools & Others</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Git & GitHub</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">Android Studio</span>
+              <span class="skill-tag">Figma</span>
+              <span class="skill-tag">Linux</span>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <div class="skill-group-label">Soft Skills</div>
+            <div class="skill-tags">
+              <span class="skill-tag">Problem Solving</span>
+              <span class="skill-tag">Team Collaboration</span>
+              <span class="skill-tag">Communication</span>
+              <span class="skill-tag">Agile / Scrum</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       TECH STACK
+  ============================ -->
+  <section id="stack" class="section" aria-labelledby="stack-heading">
+    <div class="container">
+      <p class="section-label">Tech Stack</p>
+      <h2 class="section-title fade-in" id="stack-heading">Tools of the <span class="highlight">trade</span></h2>
+      <p class="section-subtitle fade-in fade-in-delay-1">Technologies I work with regularly, organized by domain.</p>
+
+      <!-- Frontend -->
+      <div class="stack-section-title fade-in">Frontend</div>
+      <div class="stack-grid">
+        <div class="stack-card fade-in fade-in-delay-1">
+          <div class="stack-icon icon-bg-html" aria-hidden="true">🌐</div>
+          <div class="stack-name">HTML5</div>
+          <div class="stack-category">Markup</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-2">
+          <div class="stack-icon icon-bg-css" aria-hidden="true">🎨</div>
+          <div class="stack-name">CSS3</div>
+          <div class="stack-category">Styling</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-3">
+          <div class="stack-icon icon-bg-js" aria-hidden="true">⚡</div>
+          <div class="stack-name">JavaScript</div>
+          <div class="stack-category">Language</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-4">
+          <div class="stack-icon icon-bg-ts" aria-hidden="true">📘</div>
+          <div class="stack-name">TypeScript</div>
+          <div class="stack-category">Language</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-5">
+          <div class="stack-icon icon-bg-react" aria-hidden="true">⚛️</div>
+          <div class="stack-name">React</div>
+          <div class="stack-category">Framework</div>
+        </div>
+      </div>
+
+      <!-- Backend & Mobile -->
+      <div class="stack-section-title fade-in">Backend & Mobile</div>
+      <div class="stack-grid">
+        <div class="stack-card fade-in fade-in-delay-1">
+          <div class="stack-icon icon-bg-node" aria-hidden="true">🟢</div>
+          <div class="stack-name">Node.js</div>
+          <div class="stack-category">Runtime</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-2">
+          <div class="stack-icon icon-bg-py" aria-hidden="true">🐍</div>
+          <div class="stack-name">Python</div>
+          <div class="stack-category">Language</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-3">
+          <div class="stack-icon icon-bg-flutter" aria-hidden="true">💙</div>
+          <div class="stack-name">Flutter</div>
+          <div class="stack-category">Mobile</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-4">
+          <div class="stack-icon icon-bg-firebase" aria-hidden="true">🔥</div>
+          <div class="stack-name">Firebase</div>
+          <div class="stack-category">BaaS</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-5">
+          <div class="stack-icon icon-bg-mongo" aria-hidden="true">🍃</div>
+          <div class="stack-name">MongoDB</div>
+          <div class="stack-category">Database</div>
+        </div>
+      </div>
+
+      <!-- Tools -->
+      <div class="stack-section-title fade-in">Tools & Workflow</div>
+      <div class="stack-grid">
+        <div class="stack-card fade-in fade-in-delay-1">
+          <div class="stack-icon icon-bg-git" aria-hidden="true">🔀</div>
+          <div class="stack-name">Git</div>
+          <div class="stack-category">Version Control</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-2">
+          <div class="stack-icon icon-bg-vsc" aria-hidden="true">💻</div>
+          <div class="stack-name">VS Code</div>
+          <div class="stack-category">Editor</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-3">
+          <div class="stack-icon icon-bg-android" aria-hidden="true">🤖</div>
+          <div class="stack-name">Android Studio</div>
+          <div class="stack-category">IDE</div>
+        </div>
+        <div class="stack-card fade-in fade-in-delay-4">
+          <div class="stack-icon icon-bg-figma" aria-hidden="true">🖼️</div>
+          <div class="stack-name">Figma</div>
+          <div class="stack-category">Design</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       PROJECTS
+  ============================ -->
+  <section id="projects" class="section" aria-labelledby="projects-heading">
+    <div class="container">
+      <p class="section-label">Projects</p>
+      <h2 class="section-title fade-in" id="projects-heading">What I've <span class="highlight">built</span></h2>
+      <p class="section-subtitle fade-in fade-in-delay-1">Technical Projects – System Development & Problem-Solving Solutions</p>
+
+      <div class="projects-grid">
+
+        <!-- Project 1 -->
+        <article class="project-card fade-in fade-in-delay-1">
+          <div class="project-screenshot">
+  <img src="images/sample1.png" alt="TaskFlow project screenshot" />
+  <div class="project-screenshot-overlay" aria-hidden="true"></div>
+  <div class="project-num" aria-hidden="true">01</div>
+</div>
+          <div class="project-body">
+            <h3 class="project-title">IoT-based Fish Feeding and "Tarol" Water Gate Management System for Tidal Dependent Aquaculture (IFFWGMS)</h3>
+            <p class="project-desc">Developed an IoT automation system integrating hardware and networked microcontrollers, utilizing structured troubleshooting and performance validation to deliver reliable operations and reinforce technical problem-solving skills relevant to IT support environments.</p>
+            <div class="project-tech" aria-label="Technologies used">
+              <span>Sensors</span><span>Arduino Uno</span><span>C++</span><span>BlynkApp</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.youtube.com/watch?v=XsdRTKBGU2E" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="Live demo of TaskFlow">Live Demo</a>
+            
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card fade-in fade-in-delay-2">
+          <div class="project-screenshot">
+            <div class="img-placeholder">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+            <div class="project-screenshot-overlay" aria-hidden="true"></div>
+            <div class="project-num" aria-hidden="true">02</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">ShopNow — E-Commerce App</h3>
+            <p class="project-desc">A cross-platform mobile e-commerce app built with Flutter, featuring product listings, cart management, user authentication, and Stripe payment integration.</p>
+            <div class="project-tech" aria-label="Technologies used">
+              <span>Flutter</span><span>Firebase</span><span>Stripe API</span><span>Dart</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.youtube.com/watch?v=07812345678" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer" aria-label="Live demo of ShopNow">Live Demo</a>
+             
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card fade-in fade-in-delay-3">
+          <div class="project-screenshot">
+            <div class="img-placeholder">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+            <div class="project-screenshot-overlay" aria-hidden="true"></div>
+            <div class="project-num" aria-hidden="true">03</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">DevBlog — Content Platform</h3>
+            <p class="project-desc">A minimalist developer blogging platform with Markdown support, code highlighting, tag filtering, and an admin dashboard built with Node.js and MongoDB.</p>
+            <div class="project-tech" aria-label="Technologies used">
+              <span>Node.js</span><span>MongoDB</span><span>Express</span><span>EJS</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4 -->
+        <article class="project-card fade-in fade-in-delay-4">
+          <div class="project-screenshot">
+            <div class="img-placeholder">
+              <svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke-width="1.5" aria-hidden="true">
+                <rect x="3" y="3" width="18" height="18" rx="2"/>
+                <circle cx="8.5" cy="8.5" r="1.5"/>
+                <polyline points="21 15 16 10 5 21"/>
+              </svg>
+              <span>Project Screenshot</span>
+            </div>
+            <div class="project-screenshot-overlay" aria-hidden="true"></div>
+            <div class="project-num" aria-hidden="true">04</div>
+          </div>
+          <div class="project-body">
+            <h3 class="project-title">WeatherSphere — Dashboard</h3>
+            <p class="project-desc">An interactive weather dashboard with location search, 7-day forecasts, animated weather icons, and historical data charts powered by OpenWeatherMap API.</p>
+            <div class="project-tech" aria-label="Technologies used">
+              <span>JavaScript</span><span>Chart.js</span><span>OpenWeatherMap</span><span>CSS3</span>
+            </div>
+            <div class="project-actions">
+              <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ" class="btn btn-primary btn-sm" target="_blank" rel="noopener noreferrer">Live Demo</a>
+              
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       EXPERIENCE
+  ============================ -->
+  <section id="experience" class="section" aria-labelledby="experience-heading">
+    <div class="container">
+      <p class="section-label">Experience</p>
+      <h2 class="section-title fade-in" id="experience-heading">Career <span class="highlight">journey</span></h2>
+      <p class="section-subtitle fade-in fade-in-delay-1">My professional path and the impact I've made along the way.</p>
+
+      <div class="timeline">
+
+        <!-- Job 1 -->
+        <div class="timeline-item fade-in fade-in-delay-1">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role"> Computer Technician</div>
+              <div class="timeline-company">MSU-IIT College of Computer Studies.</div>
+            </div>
+            <div class="timeline-date">Jan 2024 – Present</div>
+          </div>
+          <ul class="timeline-responsibilities" aria-label="Key responsibilities">
+            <li>Delivered technical support for hardware, software, and network-related issues in a multi-user academic environment.</li>
+            <li>Reduced system downtime through structured troubleshooting and preventive maintenance practices.</li>
+            <li>Maintained operational readiness of laboratory systems by performing OS deployment, system updates, and configuration management.</li>
+            <li>Ensured stable LAN connectivity and internet access for academic activities and examinations.</li>
+            <li>Supported over multiple users daily, resolving technical concerns efficiently under time-sensitive conditions.</li>
+          </ul>
+        </div>
+
+        <!-- Job 2 -->
+        <div class="timeline-item fade-in fade-in-delay-2">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role">Technical Assistant</div>
+              <div class="timeline-company">Supreme Court of the Philippines (Sharia & Regular Bar Exam)</div>
+            </div>
+            <div class="timeline-date">May 2025 – Sep 2025</div>
+          </div>
+          <ul class="timeline-responsibilities" aria-label="Key responsibilities">
+            <li>Delivered real-time technical support during Sharia and Regular Bar Examinations, ensuring uninterrupted system performance in a mission-critical environment.</li>
+            <li>Diagnosed and resolved hardware, software, and network issues under strict time constraints.</li>
+            <li>Conducted system setup, configuration validation, and pre-exam technical checks to prevent operational disruptions.</li>
+            <li>Coordinated with IT teams and exam officials to escalate and resolve critical incidents efficiently.</li>
+            <li>Maintained system security, confidentiality, and compliance throughout examination operations.</li>
+          </ul>
+        </div>
+
+        <!-- Job 3 -->
+        <div class="timeline-item fade-in fade-in-delay-3">
+          <div class="timeline-dot" aria-hidden="true"></div>
+          <div class="timeline-header">
+            <div>
+              <div class="timeline-role">Quality Assurance and UI/UX Designer</div>
+              <div class="timeline-company">Logicbase Interactive Ent.</div>
+            </div>
+            <div class="timeline-date">Feb 2023 – June 2022</div>
+          </div>
+          <ul class="timeline-responsibilities" aria-label="Key responsibilities">
+            <li>Assisted in building landing pages and marketing microsites using HTML, CSS, and vanilla JavaScript.</li>
+            <li>Optimized images and assets to improve website performance scores on Google PageSpeed Insights.</li>
+            <li>Worked with the design team to implement responsive layouts across different device breakpoints.</li>
+          </ul>
+        </div>
+        <!-- Job 4 -->
+<div class="timeline-item fade-in fade-in-delay-4">
+  <div class="timeline-dot" aria-hidden="true"></div>
+  <div class="timeline-header">
+    <div>
+      <div class="timeline-role">Computer Systems Servicing NC II</div>
+      <div class="timeline-company">TESDA REGION 10</div>
+    </div>
+    <div class="timeline-date">Feb 2019 – March 2019</div>
+  </div>
+  <ul class="timeline-responsibilities" aria-label="Key responsibilities">
+    <li>Developed foundational expertise in hardware diagnostics, system assembly, and OS installation.</li>
+    <li>Gained hands-on experience in LAN setup, TCP/IP configuration, and basic network troubleshooting.</li>
+    <li>Applied structured technical support procedures that strengthened real-world troubleshooting skills used in laboratory and examination IT environments.</li>
+  </ul>
+</div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       CONTACT
+  ============================ -->
+  <section id="contact" class="section" aria-labelledby="contact-heading">
+    <div class="container">
+      <p class="section-label">Contact</p>
+      <h2 class="section-title fade-in" id="contact-heading">Let's <span class="highlight">connect</span></h2>
+
+      <div class="contact-grid">
+
+        <!-- Left: Info & Links -->
+        <div class="contact-info fade-in fade-in-delay-1">
+          <h3>Open to new opportunities</h3>
+          <p>Whether you have a project in mind, a job opportunity, or just want to chat about tech — my inbox is always open. I'll do my best to respond promptly!</p>
+          <div class="contact-links">
+            <a href="https://mail.google.com/mail/?view=cm&to=sonnyboy.eduave@g.msuiit.edu.ph" class="contact-link" aria-label="Email Sonny Boy Eduave">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                  <polyline points="22,6 12,13 2,6"/>
+                </svg>
+              </div>
+              sonnyboy.eduave@g.msuiit.edu.ph
+            </a>
+            <a href="https://github.com/alexrivera" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="GitHub profile">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+                </svg>
+              </div>
+              github.com/alexrivera
+            </a>
+            <a href="https://www.linkedin.com/in/sonny-boy-eduave-0b8a57326/" class="contact-link" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn profile">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+                  <rect x="2" y="9" width="4" height="12"/>
+                  <circle cx="4" cy="4" r="2"/>
+                </svg>
+              </div>
+              linkedin.com/in/sonny-boy-eduave-0b8a57326
+            </a>
+            <a href="#" class="contact-link" aria-label="Location: Maigo Lanao Del Norte, Philippines">
+              <div class="contact-link-icon" aria-hidden="true">
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/>
+                  <circle cx="12" cy="10" r="3"/>
+                </svg>
+              </div>
+              Maigo Lanao Del Norte, Philippines
+            </a>
+          </div>
+        </div>
+
+        <!-- Right: Form -->
+        <div class="fade-in fade-in-delay-2">
+          <div class="contact-form" role="form" aria-label="Contact form">
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" autocomplete="name" required />
+            </div>
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your@email.com" autocomplete="email" required />
+            </div>
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Tell me about your project or opportunity..." required></textarea>
+            </div>
+            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+            <button type="button" class="btn btn-primary" id="send-btn" onclick="handleFormSubmit()">
+              <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <line x1="22" y1="2" x2="11" y2="13"/>
+                <polygon points="22 2 15 22 11 13 2 9 22 2"/>
+              </svg>
+              Send Message
+            </button>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============================
+       FOOTER
+  ============================ -->
+  <footer role="contentinfo">
+    <div class="container">
+      <div class="footer-inner">
+        <p class="footer-copy">
+          &copy; 2026 <span>Sonny Boy Eduave</span> &middot; Built with passion &amp; clean code
+        </p>
+        <div class="footer-socials" aria-label="Social links">
+          <a href="https://github.com/alexrivera" class="footer-social" target="_blank" rel="noopener noreferrer" aria-label="GitHub">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"/>
+            </svg>
+          </a>
+          <a href="https://www.linkedin.com/in/sonny-boy-eduave-0b8a57326/" class="footer-social" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/>
+              <rect x="2" y="9" width="4" height="12"/>
+              <circle cx="4" cy="4" r="2"/>
+            </svg>
+          </a>
+          <a href="https://mail.google.com/mail/?view=cm&to=sonnyboy.eduave@g.msuiit.edu.ph" class="footer-social" aria-label="Email">
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JavaScript (at end of body for performance) -->
+  <script src="script.js"></script>
+
+</body>
+</html>
