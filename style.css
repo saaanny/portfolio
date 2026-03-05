@@ -345,7 +345,7 @@ button:focus-visible {
    HERO SECTION
 ============================ */
 #hero {
-  min-height: 100svh;
+  min-height: 50svh;
   display: flex;
   align-items: center;
   padding-top: var(--nav-h);
@@ -479,7 +479,7 @@ button:focus-visible {
 }
 .hero-avatar-frame {
   position: absolute;
-  border: 1px solid var(--border);
+  border: 2px solid var(--border);
   pointer-events: none;
 }
 .hero-avatar-frame::before {
@@ -907,7 +907,7 @@ button:focus-visible {
   width: 100%;
   height: 100%;
   object-fit: cover;
-  object-position: center top;
+  object-position: center 5%;
   display: block;
   position: absolute;
   inset: 0;
@@ -1129,6 +1129,7 @@ footer { padding: 28px 0; border-top: 1px solid var(--border); }
     padding: 60px 0 80px;
   }
   .hero-text { flex: 1; }
+  
 
   /* Show avatar */
   .hero-avatar-wrap {
