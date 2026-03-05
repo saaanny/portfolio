@@ -589,7 +589,7 @@ button:focus-visible {
 .skill-group       { margin-bottom: 20px; }
 .skill-group-label {
   font-family: var(--font-mono);
-  font-size: 0.67rem;
+  font-size: .95rem;
   letter-spacing: 0.15em;
   text-transform: uppercase;
   color: var(--text-muted);
